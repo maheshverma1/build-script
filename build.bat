@@ -1,3 +1,7 @@
+
+cd ..
+cd maven-build
+
 docker build -t maheshkumarctl/docker-k8s-example:latest .
 
 docker login --username=maheshkumarctl --password=mk@verma11
